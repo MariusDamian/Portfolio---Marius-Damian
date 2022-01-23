@@ -15,20 +15,19 @@ function HomePage() {
                                         Marius Damian
                                    </h3>
                                    <Typed strings={["Front End Developer"]} typeSpeed={100} backSpeed={10} backDelay={1000} className="lg:text-5xl text-2xl text-gray-300" />
-                                   {/* <h1 className="lg:text-5xl text-2xl text-gray-300">Front End Developer</h1> */}
                                    <div className="lg:text-4xl space-x-5 flex flex-row text-2xl text-gray-300">
                                         <a href="https://github.com/MariusDamian" target="_blank">
-                                             <i className=" hover:text-rose-600">
+                                             <i className=" hover:text-rose-600 transition-all duration-500">
                                                   <BsGithub />
                                              </i>
                                         </a>
                                         <a href="https://www.linkedin.com/in/damianmarius/" target="_blank">
-                                             <i className="hover:text-rose-600">
+                                             <i className="hover:text-rose-600 transition-all duration-500">
                                                   <BsLinkedin />
                                              </i>
                                         </a>
                                         <a href="mailto:marius.damian.stefan@gmail.com" target="_blank">
-                                             <i className=" hover:text-rose-600">
+                                             <i className=" hover:text-rose-600 transition-all duration-500">
                                                   <BsFillEnvelopeFill />
                                              </i>
                                         </a>

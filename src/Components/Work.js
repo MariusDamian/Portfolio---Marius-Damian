@@ -6,7 +6,7 @@ function Work(props) {
           <div className="flex flex-col p-5 items-center rounded-3xl group border border-gray-700 shadow-lg shadow-rose-600/30 lg:h-[420px] lg:w-[350px] w-64 h-80" style={{ backgroundColor: "#1e2024" }}>
                <div className="overflow-hidden rounded-3xl">
                     <a href={props.netLink} target="_blank">
-                         <img src={props.image} alt="" className="rounded-3xl hover:scale-110 transform transition-all duration-1000 overflow-hidden" style={{ height: "280px", width: "300px" }} />
+                         <img src={props.image} alt="" className="rounded-3xl hover:scale-105 transform transition-all duration-700 overflow-hidden" style={{ height: "280px", width: "300px" }} />
                     </a>
                </div>
 

@@ -18,7 +18,7 @@ function ButtonsMenu() {
                               <button>
                                    <div className="group flex flex-row items-center hover:bg-rose-600 rounded-3xl duration-150 transition-all ease-linear z-50">
                                         <p className="opacity-0 group-hover:opacity-100 duration-150 transition-all ease-linear text-base pl-4 hidden lg:block">About Me</p>
-                                        <NavLink to="/about" className={({ isActive }) => (isActive ? "p-3 rounded-3xl bg-rose-600 group-hover:bg-opacity-0 duration-150 transition-all ease-linear" : "p-3 rounded-3xl bg-zinc-800 group-hover:bg-opacity-0 duration-150 transition-all ease-linear border-zinc-600 border")}>
+                                        <NavLink to="/about" className={({ isActive }) => (isActive ? "p-3 rounded-3xl bg-rose-600 group-hover:bg-opacity-0 duration-150 transition-all ease-linear border-rose-600 border" : "p-3 rounded-3xl bg-zinc-800 group-hover:bg-opacity-0 duration-150 transition-all ease-linear border-zinc-600 border group-hover:border-rose-600")}>
                                              <GoPerson />
                                         </NavLink>
                                    </div>
@@ -28,7 +28,7 @@ function ButtonsMenu() {
                               <button>
                                    <div className="group flex flex-row items-center hover:bg-rose-600 rounded-3xl duration-150 transition-all ease-linear">
                                         <p className="opacity-0 group-hover:opacity-100 duration-150 transition-all ease-linear text-base pl-4 hidden lg:block">Skills</p>
-                                        <NavLink to="/skills" className={({ isActive }) => (isActive ? "p-3 rounded-3xl bg-rose-600 group-hover:bg-opacity-0 duration-150 transition-all ease-linear" : "p-3 rounded-3xl bg-zinc-800 group-hover:bg-opacity-0 duration-150 transition-all ease-linear border-zinc-600 border")}>
+                                        <NavLink to="/skills" className={({ isActive }) => (isActive ? "p-3 rounded-3xl bg-rose-600 group-hover:bg-opacity-0 duration-150 transition-all ease-linear border-rose-600 border" : "p-3 rounded-3xl bg-zinc-800 group-hover:bg-opacity-0 duration-150 transition-all ease-linear border-zinc-600 border group-hover:border-rose-600")}>
                                              <BiNetworkChart />
                                         </NavLink>
                                    </div>
@@ -38,7 +38,7 @@ function ButtonsMenu() {
                               <button>
                                    <div className="group flex flex-row items-center hover:bg-rose-600 rounded-3xl duration-150 transition-all ease-linear">
                                         <p className="opacity-0 group-hover:opacity-100 duration-150 transition-all ease-linear text-base pl-4 hidden lg:block">Portfolio</p>
-                                        <NavLink to="/portfolio" className={({ isActive }) => (isActive ? "p-3 rounded-3xl bg-rose-600 group-hover:bg-opacity-0 duration-150 transition-all ease-linear" : "p-3 rounded-3xl bg-zinc-800 group-hover:bg-opacity-0 duration-150 transition-all ease-linear border-zinc-600 border")}>
+                                        <NavLink to="/portfolio" className={({ isActive }) => (isActive ? "p-3 rounded-3xl bg-rose-600 group-hover:bg-opacity-0 duration-150 transition-all ease-linear border-rose-600 border" : "p-3 rounded-3xl bg-zinc-800 group-hover:bg-opacity-0 duration-150 transition-all ease-linear border-zinc-600 border group-hover:border-rose-600")}>
                                              <BsBriefcaseFill />
                                         </NavLink>
                                    </div>
@@ -48,7 +48,7 @@ function ButtonsMenu() {
                               <button>
                                    <div className="group flex flex-row items-center hover:bg-rose-600 rounded-3xl duration-150 transition-all ease-linear">
                                         <p className="opacity-0 group-hover:opacity-100 duration-150 transition-all ease-linear text-base pl-4 hidden lg:block">Contact Me</p>
-                                        <NavLink to="/contact" className={({ isActive }) => (isActive ? "p-3 rounded-3xl bg-rose-600 group-hover:bg-opacity-0 duration-150 transition-all ease-linear" : "p-3 rounded-3xl bg-zinc-800 group-hover:bg-opacity-0 duration-150 transition-all ease-linear border-zinc-600 border")}>
+                                        <NavLink to="/contact" className={({ isActive }) => (isActive ? "p-3 rounded-3xl bg-rose-600 group-hover:bg-opacity-0 duration-150 transition-all ease-linear border-rose-600 border" : "p-3 rounded-3xl bg-zinc-800 group-hover:bg-opacity-0 duration-150 transition-all ease-linear border-zinc-600 border group-hover:border-rose-600")}>
                                              <GoMailRead />
                                         </NavLink>
                                    </div>

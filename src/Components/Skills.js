@@ -52,8 +52,8 @@ function Skills() {
                                              <p>Figma</p>
                                         </div>
                                         <div className="flex flex-row items-center justify-start w-full">
-                                             <img src="./images/three.png" alt="" className="w-12 mr-5" />
-                                             <p>Three JS</p>
+                                             <img src="./images/next.png" alt="" className="w-12 mr-5" />
+                                             <p>Next JS</p>
                                         </div>
                                    </div>
                               </Fade>

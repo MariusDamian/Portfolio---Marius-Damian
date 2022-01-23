@@ -18,7 +18,7 @@ function About() {
                                    </div>
                               </Fade>
                               <Fade>
-                                   <div className="w-1/2 pr-40 sm:text-sm lg:text-base">
+                                   <div className="w-1/2 pr-40 sm:text-sm lg:text-lg">
                                         <p>
                                              My name is <em className="font-semibold not-italic text-rose-600">Marius Damian</em>. I am from Bucharest, Romania. I've always been passionate about everything digital and related to the internet.
                                         </p>
