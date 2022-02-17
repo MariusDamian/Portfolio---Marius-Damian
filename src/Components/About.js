@@ -2,6 +2,7 @@ import React from "react";
 import Fade from "react-reveal/Fade";
 import "./styles.css";
 import { FcFolder } from "react-icons/fc";
+import { Link } from "react-router-dom";
 
 function About() {
      return (
@@ -14,7 +15,7 @@ function About() {
                          <div className="flex flex-row items-center justify-center lg:pt-20 pt-10 space-x-10">
                               <Fade>
                                    <div className="w-1/2 hidden sm:flex flex-row justify-end">
-                                        <img src="./images/profile.png" alt="" className="border-2 border-rose-600 rounded-3xl xl:w-96 lg:w-80 md:w-72 sm:w-60" />
+                                        <img src="./images/profile.webp" alt="" className="border-2 border-rose-600 rounded-3xl xl:w-96 lg:w-80 md:w-72 sm:w-60" />
                                    </div>
                               </Fade>
                               <Fade>
@@ -33,8 +34,11 @@ function About() {
                                         </p>
                                         <br />
                                         <a href="https://www.dropbox.com/s/m5uaj3swdowlb77/Marius%20Damian.pdf?dl=1">
-                                             <button className="bg-rose-600 px-2 py-2 rounded-xl shadow-lg shadow-gray-600/40 hover:bg-rose-800">Curriculum Vitae</button>
+                                             <button className="bg-rose-600 px-2 py-2 rounded-xl shadow-lg shadow-gray-600/40 hover:bg-rose-800 w-48">Curriculum Vitae</button>
                                         </a>
+                                        <Link className="ml-8" to="/portfolio">
+                                             <button className="bg-rose-600 px-2 py-2 rounded-xl shadow-lg shadow-gray-600/40 hover:bg-rose-800 w-48">View my work</button>
+                                        </Link>
                                    </div>
                               </Fade>
                          </div>
@@ -56,11 +60,14 @@ function About() {
                               <p>From that moment, I discovered that my passion stretches beyond the point where I'm just a user.</p>
                               <br />
                               <a href="https://www.dropbox.com/s/m5uaj3swdowlb77/Marius%20Damian.pdf?dl=1">
-                                   <button className="bg-rose-600 px-2 py-2 rounded-xl hover:bg-rose-800">Curriculum Vitae</button>
+                                   <button className="bg-rose-600 px-2 py-2 rounded-xl hover:bg-rose-800 w-40 mb-3">Curriculum Vitae</button>
                               </a>
+                              <Link className="" to="/portfolio">
+                                   <button className="bg-rose-600 px-2 py-2 rounded-xl shadow-lg shadow-gray-600/40 hover:bg-rose-800 w-40">View my work</button>
+                              </Link>
                          </div>
                          <div className="flex items-start justify-start w-full mt-8 pl-4">
-                              <img src="" alt="" src="./images/profile.png" alt="" className="border-2 border-rose-600 rounded-3xl w-60" />
+                              <img src="" alt="" src="./images/profile.webp" alt="" className="border-2 border-rose-600 rounded-3xl w-60" />
                          </div>
                     </div>
                </div>
