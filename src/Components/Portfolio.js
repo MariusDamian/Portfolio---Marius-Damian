@@ -14,7 +14,7 @@ function Portfolio() {
                               {/* Section Start */}
                               <Work title="CadoulIeftin.ro" image="\images\cadoulIeftin.png" type="Live website" netLink="https://cadoulieftin.ro/" gitLink="https://github.com/MariusDamian/Cadoul-Ieftin.ro" />
                               <Work title="API Weather application" image="\images\weatherApp.png" type="Application" netLink="https://weatherappdmn.netlify.app/" gitLink="https://github.com/MariusDamian/Weather-APP" />
-                              <Work title="Medical equipment company" image="\images\alpha.png" type="Website" netLink="https://alphamedical.netlify.app/" gitLink="https://github.com/MariusDamian/Alpha-Medical" />
+                              <Work title="Medical equipment company" image="\images\alpha.png" type="Website" netLink="https://alphamedical.ro/" gitLink="https://github.com/MariusDamian/Alpha-Medical" />
                               {/* Section End */}
                          </div>
                     </Fade>
